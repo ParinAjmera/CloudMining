@@ -1,0 +1,92 @@
+body{
+text-align:justify;
+font-family:Verdana, sans-serif;
+background-color:#707070 ;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: 100% 100%;
+}
+
+#container
+{
+
+width:100%;
+padding:2%;
+margin: 0 auto;
+background:#fff;
+border-radius:1.3%;
+opacity:0.9;
+}
+
+
+header
+{
+height:100%;
+width:100%;
+padding:1%;
+margin: 0 auto;
+border-radius:1.3%;
+position: relative;
+color:#58ACFA;
+background-color:#000;
+opacity:0.9;
+}
+
+
+footer
+{
+
+width:80%;
+bottom:0%;
+position: relative;
+margin: 0 auto;
+color:#fff;
+padding:2%;
+overflow: hidden;
+
+}
+nav blk{
+
+
+  display:inline-block;  //so you can set width and height
+  height: 100%;
+  width: 170px;
+}
+@keyframes blink {
+    0% { box-shadow: 0 0 15px #2795b6; }
+    50% { box-shadow: 0 0 0; }
+    100% { box-shadow: 0 0 15px #2795b6; }
+}
+
+@-webkit-keyframes blink {
+    0% { box-shadow: 0 0 15px #2795b6; }
+    50% { box-shadow: 0 0 0; }
+    100% { box-shadow: 0 0 15px #2795b6; }
+}
+
+
+
+blk:hover
+{
+
+-webkit-animation: blink 1.0s linear infinite;
+    animation: blink 1.0s linear infinite;
+}
+.moveMe
+{
+    
+    position: relative;
+    top: 0;
+    -webkit-transition: top 0.2s;
+    -moz-transition: top 0.2s;
+    -o-transition: top 0.2s;
+}
+
+.moveMe:hover
+{
+    top: 10px;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
+}
+
